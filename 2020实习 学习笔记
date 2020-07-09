@@ -1,1 +1,26 @@
-hello world!
+打包工具 webpack&Parcel
+
+webpack
+
+webpack 是一种前端资源构建工具，是一个静态模块打包器。
+将一些浏览器识别不了语法，统一整合成浏览器可以识别的语法。解决了分别编译费时费力的问题。
+将一些样式、字体、图片等资源与引入资源的js文件做成关系依赖图，形成chunk块，再对块进行处理，经过打包，形成bundle。
+
+webpack 有五个核心的概念。 entry、output、loader、plugins。 
+入口entry（以哪个文件为入口起点开始打包，分析构建内部依赖图）
+出口output（webpack打包后的资源bundles输出到哪里去，以及如何命名）
+加载loader（让webpack能够去处理非JavaScript文件）
+插件plugins（用于执行范围更广的任务）
+模式mode（开发/生产）
+因为有着这些概念，webpack是高度可配置的。
+
+//   看似都能理解，实际感觉每一步都不太会具体操作
+
+
+parcel
+
+相比webpack, parcel在使用上更为简单。parcel不需要安装任何插件，也不需要进行配置。
+parcel支持许多开箱即用的转换器和内置的编译器。
+例如可以使用 Babel 转换 JavaScript ，使用 PostCSS 转换 CSS ，使用 PostHTML 转换 HTML。
+
+
