@@ -14,7 +14,7 @@ webpack 有五个核心的概念。 entry、output、loader、plugins。
 模式mode（开发/生产）
 因为有着这些概念，webpack是高度可配置的。
 
-//   看似都能理解，实际感觉每一步都不太会具体操作
+                                              //   看似都能理解，实际感觉每一步都不太会具体操作
 
 
 parcel
@@ -23,4 +23,48 @@ parcel
 parcel支持许多开箱即用的转换器和内置的编译器。
 例如可以使用 Babel 转换 JavaScript ，使用 PostCSS 转换 CSS ，使用 PostHTML 转换 HTML。
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+ES6
+
+变量的解构赋值
+
+解构本质上来说，就是模式的匹配。按照一定模式，从数组和对象中提取值，对变量进行赋值。
+只要等号两边的模式相同，左边的变量就会被赋予对应的值。
+
+解构的简单应用
+
+1.交换变量的值
+
+2.从函数中返回多个值
+
+3.提取json    //没用过， 不太懂用这个做什么
+
+let jsonData = {
+    id:42,
+    status:"OK",
+    data:[876, 5309],
+}
+
+let {id, status, data, number} = jsonData;
+
+4.map的遍历    //也没看太懂
+
+var map=new Map()
+map.set('fist','hello');
+map.set('second','world');
+for(let [key, value] of map){
+    console.log(key, value);
+}
+
+// 只遍历key
+for(let [key] of map){
+    console.log(key);
+}
+
+// 只遍历value
+for(let [, value] of value){
+    console.log(value);
+}
 
