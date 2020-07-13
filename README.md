@@ -146,7 +146,7 @@ Object.is就是部署这个算法的新方法。它用来比较两个值是否�
 
 ***
 
-#antd
+# antd
 
 - antd 是基于 Ant Design 设计体系的 React UI 组件库
 
@@ -163,7 +163,7 @@ Object.is就是部署这个算法的新方法。它用来比较两个值是否�
 
 
 ***
-#dva
+# dva
 
 - dva是react的轻框架
 
@@ -180,11 +180,11 @@ dispatch 方法：一个函数，发送 Action 到 State
 
 ***
 
-#nvm
+# nvm
 
 - nvm是一个nodejs的版本管理工具。通过它可以安装和切换不同版本的nodejs。
 
-#npx
+# npx
 
 - 用途：使用npx可以在命令行直接执行本地已安装的依赖包命令
 
@@ -198,7 +198,7 @@ dispatch 方法：一个函数，发送 Action 到 State
 ***
 
 
-#node 
+# node 
 
 - nodejs遵循了CommonJS规范
 
@@ -215,7 +215,7 @@ CommonJS规范在服务器端率先完成了JavaScript的模块化，解决了�
 由于 CommonJS 是同步加载模块的，在服务器端，文件都是保存在硬盘上，所以同步加载没有问题
 但是对于浏览器端，需要将文件从服务器端请求过来，那么同步加载就不适用了，所以，CommonJS是不适用于浏览器端的
 ***
-#node和ES6的模块区别：
+# node和ES6的模块区别：
 
 https://blog.csdn.net/sinat_31900531/article/details/88691196
 https://www.jianshu.com/p/fa4a86ce4c72
@@ -224,7 +224,7 @@ https://www.jianshu.com/p/fa4a86ce4c72
 
 
 ***
-#fs：  
+# fs：  
 - fs 模块提供了用于与文件系统进行交互（以类似于标准 POSIX 函数的方式）的 API。
 所有的文件系统操作都具有同步和异步的形式。
 
@@ -234,7 +234,7 @@ https://www.jianshu.com/p/fa4a86ce4c72
 
 - 对于大多数 fs 模块的函数， path 或 filename 参数可以传入 WHATWG URL 对象。 仅支持使用 file: 协议的 URL 对象。
 ***
-#path：
+# path：
 - path 模块提供了一些实用工具，用于处理文件和目录的路径。
 
 - module：在 Node.js 模块系统中，每个文件都被视为一个独立的模块。
@@ -245,7 +245,7 @@ https://www.jianshu.com/p/fa4a86ce4c72
 这意味着可以通过 require.main === module 来判断一个文件是否被直接运行
   ***      
 
-#eslint
+# eslint
 
 - ESLint是一个用来检查代码的工具，可以让程序员在编码的过程中发现问题。
 
@@ -255,7 +255,7 @@ https://www.jianshu.com/p/fa4a86ce4c72
 
 - ESLint 是完全插件化的。每一个规则都是一个插件并且你可以在运行时添加更多的规则。
 ***
-###ESlint的特点
+### ESlint的特点
 
 - 内置规则和自定义规则共用一套规则 API。
 
@@ -275,7 +275,7 @@ https://www.jianshu.com/p/fa4a86ce4c72
 
 ***
 
-#TSlint
+# TSlint
 
 - TSLint是可扩展的静态分析工具，用于检查TypeScript代码的可读性，可维护性和功能性错误。
   并且可以使用自己的lint规则，配置和格式化程序进行自定义。
